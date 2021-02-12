@@ -7,7 +7,7 @@
             $controller =  get_class($controller);
             if($controller == "Home")
             {   
-                $view = 'Views/s'.$view.".php";
+                $view = 'Views/'.$view.".php";
             }else{
                 $view = 'Views/'.$controller."/".$view.".php";    
             }
