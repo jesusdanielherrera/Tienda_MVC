@@ -7,6 +7,6 @@
     <title>Tienda Virtual</title>
 </head>
 <body>
-    <h1>Bienvenido a mi sitio web</h1>
+    <h1>Bienvenido a mi sitio webbbbbbbbbbbbbbbbbbbbbbb</h1>
 </body>
 </html>
