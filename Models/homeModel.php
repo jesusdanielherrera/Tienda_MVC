@@ -5,7 +5,7 @@
         {
             parent::__construct();
         }
-        public function setUser(string $nombre, int $edad){
+        /*public function setUser(string $nombre, int $edad){
             $query_insert ="INSERT INTO usuario(nombre, edad) values (?,?)";
             $arrData = array($nombre, $edad);
             $request_insert = $this->insert($query_insert, $arrData); 
@@ -31,7 +31,7 @@
             $sql = "DELETE FROM usuario where id = $id";
             $del = $request = $this->delete($sql);
             return $del;
-        }
+        }*/
     }
 
 ?>
