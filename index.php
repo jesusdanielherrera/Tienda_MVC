@@ -1,7 +1,8 @@
 <?php
 
     require_once("Config/config.php");
-
+    require_once("Helpers/Helpers.php");
+    
     $url =  !empty($_GET['ruta']) ? $_GET['ruta'] : 'home/home';
     $arrUrl = explode("/", $url);
     $controller = $arrUrl[0];
